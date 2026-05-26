@@ -135,19 +135,19 @@ export default function Register({ navigate, onRegister }) {
                             </label>
                         </div>
                     </div>
+                    <div className="absolute bottom-4 left-0 w-full px-5 bg-white pt-2">
+                        <button
+                            onClick={handleButtonClick}
+                            type="button"
+                            className="w-full h-12 bg-[#6c25ff] text-white font-medium text-[15px] rounded-md shadow-sm transition-all active:scale-[0.99]"
+                        >
+                            Create Account
+                        </button>
+                    </div>
                 </form>
 
             </div>
 
-            <div className="absolute bottom-4 left-0 w-full px-5 bg-white pt-2">
-                <button
-                    onClick={handleButtonClick}
-                    type="button"
-                    className="w-full h-12 bg-[#6c25ff] text-white font-medium text-[15px] rounded-md shadow-sm transition-all active:scale-[0.99]"
-                >
-                    Create Account
-                </button>
-            </div>
         </div>
     );
 }
