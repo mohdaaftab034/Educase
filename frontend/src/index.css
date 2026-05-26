@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f0f0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Shared phone frame used across all pages */
+.phone-frame {
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid #d0d0d0;
+}
